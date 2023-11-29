@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 const apiKey = '9652aa20222922be24a7451da8f221ce'; // Reemplaza con tu API key de OpenWeatherMap
 

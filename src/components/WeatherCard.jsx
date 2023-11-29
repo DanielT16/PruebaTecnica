@@ -1,6 +1,3 @@
-import { useReducer } from "react";
-import ShapeVisibility from "../assets/icons/ShapeVisibility.svg";
-
 export const WeatherCard = ({
     icon,
     title,

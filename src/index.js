@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { DashboardMonterrey } from './screens/DashboardMonterrey';
+import { Dashboard } from './screens/Dashboard';
 import reportWebVitals from './reportWebVitals';
 import axios from 'axios'
 
@@ -18,9 +18,9 @@ root.render(
       `}
     </style>
     <div className='w-full h-full m-0 p-0'>
-      {/* <React.StrictMode> */}
-        <DashboardMonterrey />
-      {/* </React.StrictMode> */}
+      <React.StrictMode>
+        <Dashboard />
+      </React.StrictMode>
     </div>
   </>
 );
