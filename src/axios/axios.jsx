@@ -9,7 +9,7 @@ export default class Methods {
     }
     static async getForeCast (city) {
         return await axios.get(
-            `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&cnt=33&units=metric`
+            `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&cnt=33&units=metric`
         );
     }
 }
