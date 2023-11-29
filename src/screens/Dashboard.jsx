@@ -32,7 +32,7 @@ export const Dashboard = () => {
 
     const changeWeatherData = async (city) => {
         const responseForecast = await Methods.getForeCast(city)
-        setCurrentWeather(weather.find(item => item.name == city))
+        setCurrentWeather(weather.find(item => item.name === city))
         setForecast(responseForecast.data.list)
     }
 
